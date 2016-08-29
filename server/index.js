@@ -10,6 +10,6 @@ app.listen(port);
 console.log('listening on port: ', port);
 
 app.use(compression());
-app.use(express.static(__dirname + '/../.'));
+app.use(express.static(__dirname + '/../app'));
 
 module.exports =  app;
